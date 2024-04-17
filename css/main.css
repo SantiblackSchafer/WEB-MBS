@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333333;
+  color: #FFFFFF;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  padding-top: 0;
+}
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+}
+
+.nav-link {
+  color: #FFFFFF;
+}
+
+.jumbotron {
+  background-image: url("https://via.placeholder.com/1500x600");
+  background-size: cover;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 100px 0;
+}
+.jumbotron h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.jumbotron p {
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/*# sourceMappingURL=main.css.map */

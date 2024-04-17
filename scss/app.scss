@@ -1,26 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap');
+// Variables
+$navbar-background-color: #333333;
+$navbar-text-color: #FFFFFF;
+$jumbotron-bg-image: url('https://via.placeholder.com/1500x600');
+$jumbotron-text-color: #FFFFFF;
+$footer-background-color: #333333;
+$footer-text-color: #FFFFFF;
 
-$primary-color: #007bff;
-
+// Estilos
 body {
-    font-family: 'Roboto Serif', serif;
+    font-family: Arial, sans-serif;
 }
 
 .navbar {
-    background-color: $primary-color;
+    background-color: $navbar-background-color;
+    color: $navbar-text-color;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    padding-top: 0;
+
+    img {
+        height: 40px;
+        width: auto;
+    }
+}
+
+.nav-link {
+    color: $navbar-text-color;
 }
 
 .jumbotron {
-    background-color: #f8f9fa;
+    background-image: $jumbotron-bg-image;
+    background-size: cover;
+    color: $jumbotron-text-color;
+    text-align: center;
+    padding: 100px 0;
+
+    h1 {
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 18px;
+    }
 }
 
-.feature {
-    padding: 50px 0;
-}
-
-footer {
-    background-color: #f8f9fa;
+.footer {
+    background-color: $footer-background-color;
+    color: $footer-text-color;
+    text-align: center;
     padding: 20px 0;
-    font-size: 0.9rem;
-    color: #6c757d;
 }
