@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap');
+
+$primary-color: #007bff;
+
+body {
+    font-family: 'Roboto Serif', serif;
+}
+
+.navbar {
+    background-color: $primary-color;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+}
+
+.feature {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
