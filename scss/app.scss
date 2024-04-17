@@ -6,6 +6,19 @@ $jumbotron-text-color: #FFFFFF;
 $footer-background-color: #333333;
 $footer-text-color: #FFFFFF;
 
+// Animación de scroll
+@keyframes fadeIn {
+    from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+    to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+// Estilos
 body {
     font-family: Arial, sans-serif;
 }
@@ -35,6 +48,9 @@ body {
     color: $jumbotron-text-color;
     text-align: center;
     padding: 100px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s ease forwards;
 
     h1 {
         font-size: 48px;
