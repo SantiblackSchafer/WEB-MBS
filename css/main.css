@@ -1,1 +1,74 @@
+/* Variables */
+:root {
+  --navbar-background-color: #333333;
+  --navbar-text-color: #FFFFFF;
+  --jumbotron-bg-image: url('https://via.placeholder.com/1500x600');
+  --jumbotron-text-color: #FFFFFF;
+  --footer-background-color: #333333;
+  --footer-text-color: #FFFFFF;
+}
 
+/* Animación de scroll */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Estilos */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: var(--navbar-background-color);
+    color: var(--navbar-text-color);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    padding-top: 0;
+}
+
+.navbar-brand img {
+    height: 
+
+40px;
+width: auto;
+}
+
+.nav-link {
+color: var(--navbar-text-color);
+}
+
+.jumbotron {
+background-image: var(--jumbotron-bg-image);
+background-size: cover;
+color: var(--jumbotron-text-color);
+text-align: center;
+padding: 100px 0;
+opacity: 0;
+transform: translateY(20px);
+animation: fadeIn 0.5s ease forwards;
+}
+
+.jumbotron h1 {
+font-size: 48px;
+font-weight: bold;
+}
+
+.jumbotron p {
+font-size: 18px;
+}
+
+.footer {
+background-color: var(--footer-background-color);
+color: var(--footer-text-color);
+text-align: center;
+padding: 20px 0;
+}
